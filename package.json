@@ -1,0 +1,26 @@
+{
+  "name": "conduit-bootstrap-template",
+  "version": "1.0.0",
+  "description": "1. Pull repo\r 2. Update bootstrap submodule\r 3. npm install\r 4. Run `gulp`",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "clean-and-build.bat",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "5.0.0",
+    "gulp-minify-css": "1.2.4",
+    "gulp-sass": "5.1.0",
+    "gulp-server-livereload": "^1.0.1",
+    "gulp-template": "6.0.0",
+    "gulp-util": "3.0.8",
+    "sass": "1.77.4"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.3"
+  }
+}
